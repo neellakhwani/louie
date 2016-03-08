@@ -1,0 +1,25 @@
+// Variables
+// =========
+
+// Sizing and Spacing
+
+$width-100: 100%;
+$width-50: ($width-100 / 2);
+$width-25: ($width-100 / 4);
+$width-75: ($width-100 * 3)/4;
+$width-66: ($width-100 * 2)/3;
+$width-33: ($width-100 * 2)/6;
+
+$spacing-1x: 1rem;
+$spacing-2x: $spacing-1x * 2;
+
+// Colors
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-gray: #e0e0e0;
+
+// Font Stack
+
+$serif: Georgia, serif;
+$sans-serif: Helvetica Neue, sans-serif;

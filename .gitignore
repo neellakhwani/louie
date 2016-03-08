@@ -1,3 +1,6 @@
+# ignore the _build folder's output
+_build/
+
 # Logs
 logs
 *.log

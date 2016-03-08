@@ -1,0 +1,33 @@
+{
+  "name": "Louie",
+  "version": "0.1.0",
+  "description": "Opinionated Static Site Generator for Puppies",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achalv/louie"
+  },
+  "author": "Achal Varma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achalv/louie/issues"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "homepage": "https://github.com/achalv/louie",
+  "dependencies": {
+    "browser-sync": "^2.2.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-changed": "^1.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-surge": "^0.1.0",
+    "gulp-swig": "^0.7.4",
+    "gulp-uglify": "^1.5.3"
+  }
+}
