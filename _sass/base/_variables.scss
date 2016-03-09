@@ -1,8 +1,11 @@
-// Variables
-// =========
+// Glovbal variables
+// Module-specific variables
+// are bundled with the module
+
+// Breakpoints
+$breakpoint-larger-than-tablet: "min-width: 750px";
 
 // Sizing and Spacing
-
 $width-100: 100%;
 $width-50: ($width-100 / 2);
 $width-25: ($width-100 / 4);
@@ -14,12 +17,12 @@ $spacing-1x: 1rem;
 $spacing-2x: $spacing-1x * 2;
 
 // Colors
-
 $color-black: #000000;
 $color-white: #ffffff;
 $color-gray: #e0e0e0;
+$text-color: #444;
+$link-color: $color-gray;
 
 // Font Stack
 
-$serif: Georgia, serif;
-$sans-serif: Helvetica Neue, sans-serif;
+$font-stack: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;

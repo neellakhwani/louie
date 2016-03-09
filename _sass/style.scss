@@ -1,11 +1,12 @@
-@import 'base/variables';
+// Louie uses a Sass port of Skeleton (http://getskeleton.com)
+// for modular typographic defaults and for a the grid.
+
 @import 'base/normalize';
+@import 'base/variables';
+@import 'base/grid';
 @import 'base/typography';
 @import 'base/mixins';
 @import 'base/utilities';
-
-// Louie uses Typeplate (http://typeplate.com)
-// for modular typographic defaults.
 
 // To include your own styles for
 // a component called 'component',

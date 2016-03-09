@@ -125,8 +125,8 @@ gulp.task('browsersync', function() {
 gulp.task('watcher', function() {
   gulp.watch(path.join(paths.sass, '**/*.scss'), ['sass', 'minify'])
   gulp.watch(path.join(paths.sass, '**/*.js'), ['uglify', 'assets'])
-  gulp.watch(path.join(paths.pages, '**/*.html'), ['build'])
-  gulp.watch(path.join(paths.partials, '**/*.html'), ['build'])
+  gulp.watch(path.join(paths.pages, '**/*.html'), ['pages'])
+  gulp.watch(path.join(paths.partials, '**/*.html'), ['pages'])
   gulp.watch(path.join(paths.assets, '**/*'), ['assets'])
 
 });
