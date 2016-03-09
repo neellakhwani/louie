@@ -103,8 +103,7 @@ gulp.task('optimizeImages', function() {
 
 gulp.task('surge', function () {
   return surge({
-    project: paths.build,         // Path to your static build directory
-    domain: '{{ EDIT THIS }}.surge.sh'  // Your domain or Surge subdomain
+    project: paths.build
   })
 })
 
