@@ -102,8 +102,10 @@ gulp.task('optimizeImages', function() {
 });
 
 gulp.task('surge', function () {
+  console.log("Enter the domain which you want to deploy to. Note: It has to be a Surge subdomain, or registered with http://surge.sh");
   return surge({
-    project: paths.build
+    project: paths.build,
+    domain: '.surge.sh'
   })
 })
 

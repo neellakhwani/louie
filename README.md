@@ -19,6 +19,13 @@ If gulp builds the project suuccessfully, it'll open a new tab in your browser a
 
 ## How it works
 
+#### Tasks
+Louie understands the following commands:
+
+- Run`gulp` to build the project. By default, Louie watches for changes as well.
+- Run `gulp clean` to delete your current `_build` folder.
+- Run `gulp deploy` to deploy your current `_build` folder to [Surge](https://www.surge.sh/). You'll need an account with Surge to do this.
+
 This is how Louie's structured:
 
 ```
