@@ -1,6 +1,16 @@
 # Louie
 Gulp-powered static site generator, named after the dog who was sitting at my feet when I wrote it.
 
+Louie...
+
+- compiles your Sass to prefixed and minified CSS
+- supports partials and templating
+- comes with normalize.css and some base styles
+- auto-reloads pages when changes are made
+- allows cross-device testing with BrowserSync
+- can optimize image assets (.gif, .jpeg, .png and .svg)
+- can deploy your site to [Surge](https://www.surge.sh/).
+
 ## Getting started
 
 - Clone/Download this repository.
