@@ -86,4 +86,4 @@ Louie/
 
 ## License
 
-All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+All parts of Louie are free to use under the [MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
