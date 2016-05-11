@@ -13,19 +13,33 @@ Louie...
 
 ## Getting started
 
-- Clone/Download this repository.
-- Fire up your terminal, and navigate to project folder you just cloned/downloaded
-- In your terminal, run:
+##### 1. Install Gulp
+
+Gulp needs to be installed globally for Louie to work. If it is, skip to the next step. In case it isn't already set up this way, punch this into your terminal:
+```
+npm install -g gulp
+```
+If you're on a Mac, you'll need admin rights to install Gulp globally. Run the same command with `sudo`.
+
+##### 2. Clone/Download this repository.
+##### 3. Navigate to project folder you just cloned/downloaded in your terminal
+
+##### 4. Install Dependencies 
+
+In your terminal, run:
 ```
 npm install
 ```
 This should install all necessary dependencies to get you up and running with Louie.
 
-- Once you're done, run:
+##### 5. Compile
+
+Once you're done installing dependencies, run:
 ```
 gulp
 ```
-If gulp builds the project suuccessfully, it'll open a new tab in your browser and point it to `localhost:8888`. At this point, you should see a picture of Louie.
+
+If gulp builds the project suuccessfully, it'll open a new tab in your browser and point it to `localhost:8888`. At this point, you should see a picture of Louie. Isn't he cute?
 
 ## How it works
 
